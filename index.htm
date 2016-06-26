@@ -8,20 +8,32 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://use.fontawesome.com/8aa36c7c3c.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+	<script src="js/resources/angular-route.min.js"></script>
 </head>
-<body>
+<body ng-controller="mainCtrl">
 
 	<main>
 		<section>
 			<h1>From zero to "I built that"</h1>
 			<p>How to build a website in an hour</p>
-
 		</section>
 	</main>
-	<div class="downArrow">
+	<div class="downArrow" ng-click="showDivs()">
 		<i class="fa fa-angle-double-down" aria-hidden="true"></i>
-	</div>
+	</div> <!-- on click show other divs -->
+
+	<section ng-show="show">
+		<article class="tutorial">
+			<p>Tutorial</p>
+		</article>
+		<article class="resources">
+			<p>Resources</p>
+		</article>
+	</section>
+
+	<section ng-view>
+		
+	</section> <!-- this will load one of the two templates -->
 
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/controllers/mainCtrl.js"></script>
