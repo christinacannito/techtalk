@@ -8,6 +8,27 @@ body main {
 
 body main section {
   width: 100%;
-  background-color: #FFF; }
+  height: 100%;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.downArrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #91637F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  margin: 0 auto;
+  background-color: #91637F;
+  position: relative;
+  bottom: 20px; }
+  .downArrow:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */
