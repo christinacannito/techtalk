@@ -22,13 +22,22 @@
 		<i class="fa fa-angle-double-down" aria-hidden="true"></i>
 	</div> <!-- on click show other divs -->
 
-	<section ng-show="show">
-		<article class="tutorial">
+	<section ng-show="show" class="nextSteps">
+		<article class="tutorial" ng-click="showTutorial()">
 			<p>Tutorial</p>
 		</article>
-		<article class="resources">
+		<article class="resources" ng-click="showResources()">
 			<p>Resources</p>
 		</article>
+	</section>
+
+	<section ng-show="tut" class="tut">
+		<h2>Let's begin</h2>
+		<p>Before we start typing a line of code we </p>
+	</section>
+
+	<section ng-show="res" class="res">
+		<p>here is the full resources section</p>
 	</section>
 
 	<section ng-view>

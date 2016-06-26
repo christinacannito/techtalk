@@ -36,3 +36,34 @@ body main section {
 		cursor: pointer;
 	}
 }
+
+.nextSteps {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.tutorial, .resources {
+	width: 28%;
+	background-color: #FFF;
+	display: flex;
+	align-content: center;
+	align-content: center;
+	justify-content: center;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.tutorial {
+	margin-right: 4%;
+}
+
+.tut, .res {
+	width: 60%;
+	background-color: #FFF;
+	display: flex;
+	justify-content: center;
+	flex-direction: center;
+	margin: 20px auto 0 auto;
+}
