@@ -1,0 +1,35 @@
+.port, .about {
+	color: #FFF;
+	padding: 10px;
+}
+
+.port:hover {
+	background-color: #FFF;
+	border: 2px solid #73A8AF;
+}
+
+.port:hover p {
+	color: #73A8AF;
+}
+
+.about:hover {
+	background-color: #FFF;
+	border: 2px solid #B2B6AB;
+}
+
+.about:hover p {
+	color: #B2B6AB;
+}
+
+.port p, .about p {
+	margin-bottom: 0px;
+}
+
+.port {
+	margin-right: 10px;
+	background-color: #73A8AF;
+}
+
+.about {
+	background-color: #B2B6AB;
+}
