@@ -33,3 +33,40 @@
 .about {
 	background-color: #B2B6AB;
 }
+
+main {
+	background-color: #E7A83E;
+	text-align: center;
+}
+
+.smImgs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.smImgs article {
+	padding: 0px;
+}
+
+.aboutSec {
+	background-color: #77B29C;
+	color: #FFF;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.contactSec {
+	display: flex;
+	justify-content: center;
+	background-color: #94A5B3;
+}
+
+.contactInfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
