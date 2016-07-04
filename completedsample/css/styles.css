@@ -1,37 +1,63 @@
+html body p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.topRow .intro {
+	padding-left: 60px;
+}
+
+.topRow .buttons {
+	margin: 0px;
+}
+
 .port, .about {
 	color: #FFF;
 	padding: 10px;
+	margin-right: 10px;
 }
 
 .port:hover {
 	background-color: #FFF;
-	border: 2px solid #73A8AF;
+	border: 2px solid #E7A83E;
 }
 
 .port:hover p {
-	color: #73A8AF;
+	color: #E7A83E;
 }
 
 .about:hover {
 	background-color: #FFF;
-	border: 2px solid #B2B6AB;
+	border: 2px solid #77B29C;
 }
 
 .about:hover p {
-	color: #B2B6AB;
+	color: #77B29C;
 }
 
-.port p, .about p {
+.port p, .about p, .contact p {
 	margin-bottom: 0px;
 }
 
 .port {
-	margin-right: 10px;
-	background-color: #73A8AF;
+	background-color: #E7A83E;
 }
 
 .about {
-	background-color: #B2B6AB;
+	background-color: #77B29C;
+}
+
+.contact {
+	background-color: #94A5B3;
+	color: #FFF;
+}
+
+.contact:hover {
+	background-color: #FFF;
+	border: 2px solid #94A5B3;
+}
+
+.contact:hover p {
+	color: #94A5B3;
 }
 
 main {
@@ -44,7 +70,7 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 	text-align: center;
-	margin-top: 20px;
+	margin: 20px 0 20px 0;
 }
 
 .smImgs article {
@@ -57,6 +83,7 @@ main {
 	text-align: center;
 	display: flex;
 	justify-content: center;
+	padding: 15px;
 }
 
 .contactSec {
