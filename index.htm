@@ -44,9 +44,9 @@
 					<li>You can also download and install <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
 				</ul>
 			</li>
-			<li>Syntax - </li>
-			<li>Frontend - </li>
-			<li>Backend - </li>
+			<li><a href="https://en.wikipedia.org/wiki/Syntax_(programming_languages)" target="_blank">Syntax</a> - </li>
+			<li><a href="https://www.theguardian.com/help/insideguardian/2009/sep/28/blogpost" target="_blank">Frontend</a> - programming that has to do with anything the user can see. The colors, images, and animations to a page is done by a frontend developer.</li>
+			<li><a href="http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend" target="_blank">Backend</a> - programming that the user can not view. For example programming the database. Programming on how information goes from a form to being stored into a database. (A frontend developer would code the visual aspect of the form while the backend developer would capture the data.)</li>
 		</ul>
 		<p>If you want to continue to build website then you should take the time to install either Sublime Text or another text editor you really like. A text editor like Sublime Text has many great features that the default text editors don't offer. (Such as syntax highlighting and autocompletion.)</p>
 
@@ -69,18 +69,48 @@
 		<article class="startFiles">
 			<h2>Starter files</h2>
 			<p>Since we are going to try to have everyone get a site up in one hour I am going to give you some starter files and folders. You can download the starter files here at my <a href="https://github.com/christinacannito/talkstarterfiles" target="_blank">github</a> account.</p>
-			<p>Once you have downloaded the files you will unzip them and place them on your desktop. Once they are saved on your desktop you will drag the entire folder onto your text editor. </p>
+			<p>Once you have downloaded the files you will unzip them and place them on your desktop. Then you will drag the entire folder onto your text editor. </p>
 			<img src="images/step_01.png" alt="step 1 opening the sample folders and files"> 
 			<p>This is what you should see when you drag the folder into your text editor. Now if you click on the index.htm file you will see there is some code already there to help you get started. </p>
 			<img src="images/step_02.png" width="300" height="100" alt="step 2 looking at the index file">
 			<p>What is written in this file can be thought of as the structure of our site.</p>
+			<!-- when they open up the starter files you should go over them a little bit -->
 		</article>
 
 		<article class="structure">
 			<h2>The structure - HTML</h2>
 			<p>Before we add our colors or any images we need to create the structure of our site. For this we are going to use HTML. HTML is made up of keywords/tags that tell the browser how to interpret what you have written. For example you want to tell the browser that a piece of text is a heading. For a heading you would use one of 6 heading tags written as <xmp><h1>, <h2>, <h3>, <h4>, <h5>, <h6></xmp> When you load your file to the browser the browser will see these tags and know that these are heading tags therefore they will display them more prominently than a paragraph tag. There are many tags that will be used to describe the text on a page as well as the containers they sit in. <a href="http://www.w3schools.com/html/html_intro.asp" target="_blank">HTML basics</a> I have written out the structure of our site so you can get firmilar with HTML tags by seeing them in action! Let's start with the basics and look at text.</p>
 			<!-- will start by just having people fill in the blanks -->
-		</article>	
+		</article>
+		
+		<article class="structureSteps">
+			<h2>Structure steps</h2>
+			<h3>The HEAD tag</h3>
+			<p>First thing we need to do is give our page a title. The title of our page goes in the head tag and is what gets displayed in the tab in the browser.</p>
+			<img src="images/title.png" width="600" height="300" alt="writting out the title">
+			<p>What you should see then when you view the html in the browser is this: </p>
+			<img src="images/title_in_tab.png" alt="title in tab">
+			<p>Anything that is written inside this head tag is not going to be displayed on our webpage. Inside our head tag we put all of our links to our styles sheets (CSS), JavaScript, and we put the <a href="http://www.w3schools.com/tags/tag_meta.asp" target="_blank">meta tags</a>. "Meta tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable." - W3Schools An example would be the meta keywords, we would include a meta description here. Anyone viewing the site would not be able to see the meta description on the page, but the description can be found by search engines.</p>
+			
+			<h3>The BODY tag</h3>
+			<p>Now that we have looked at the HEAD tag we are going to move through the BODY of the HTML document. Anything that is written in the body is going to be viewable to the user. Let's fill out some of this content inside the BODY tag.</p>
+			<img src="images/h1_tag_p_tag.png" width="600" height="300" alt="filled in h1 tag and paragraph tag">
+			<p>The <a href="http://www.w3schools.com/tags/tag_hn.asp" target="_blank">H1 tag</a> means that this is the strongest header tag and they decrease in importantance as you go up in numbers for the heading tags. You can only have one H1 tag on your page, because search engines expect to see only one to a page. You can think of h1 tags as the name of a newspaper and all the other header tags are headings of articles.</p>
+			<p>We also filled out a paragraph tag. The paragraph tag is also used to signify text on a page, but this is used to show...paragraphs! You can put a lot of text inside of paragraph tags.</p>
+
+			<h4>Buttons</h4>
+			<p>I created some <a href="http://www.w3schools.com/tags/tag_div.asp" target="_blank">divs</a> (divs can be throught of as containers) for you to write a p tag and then name your buttons.</p>
+			<img src="images/buttons.png" width="600" height="300" alt="buttons with the p tags filled in">
+			<p>Then when you view this page in the browser you should now see the following:</p>
+			<img src="images/sample_site_buttons.png" width="600" height="300" alt="sample site so far with ">
+
+			<h4>Text</h4>
+			<p>Now we are going to put in the rest of the text onto our page! Anywhere you see a <a href="http://www.w3schools.com/html/html_comments.asp" target="_blank">comment</a> that says "TEXT" you are going to write out the tag that is there and input some...text.</p>
+			<p>For example if you see: <xmp><!-- <h2> portfolio header TEXT --></xmp> write a heading 2 tag with the name you would like for that heading. <xmp><h2>Some sample work and content</h2></xmp> Once you are done your HTML file should look like this: </p>
+			<img src="images/html_file_with_text.png" width="600" height="300"  alt="html file with all the text">
+			<p>When you open this HTML file in the browser you should see this:</p>
+			<img src="images/site_text_added.png" width="600" height="300" alt="site with all the text added">
+		</article>
 	</section>
 
 	<section ng-show="res" class="res">

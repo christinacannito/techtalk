@@ -1,0 +1,131 @@
+html body p {
+
+}
+
+html body .row {
+
+}
+
+.topRow .intro {
+
+}
+
+.topRow .buttons {
+
+}
+
+.port, .about {
+
+}
+
+.port:hover {
+
+}
+
+.port:hover p {
+
+}
+
+.about:hover {
+
+}
+
+.about:hover p {
+
+}
+
+.port p, .about p, .contact p {
+
+}
+
+footer {
+
+}
+
+footer p {
+
+}
+
+.port {
+
+}
+
+.about {
+
+}
+
+.contact {
+
+}
+
+.contact:hover {
+
+}
+
+.contact:hover p {
+
+}
+
+main {
+
+}
+
+.smImgs {
+
+}
+
+.smImgs article {
+
+}
+
+.aboutSec {
+
+}
+
+.contactSec {
+
+}
+
+.contactInfo {
+
+}
+
+.phone, .email {
+
+}
+
+.phone p {
+
+}
+
+.emailLink {
+
+}
+
+.emailLink:hover {
+
+}
+
+.contactInfo .fa-phone, .contactInfo .fa-envelope {
+
+}
+
+.contactInfo p {
+
+}
+
+/* media queries */
+@media (max-width: 767px) {
+  .phone, .email {
+
+  }
+  .contactInfo {
+
+  }
+}
+
+@media (max-width: 808px) {
+  .topRow .intro {
+
+  }
+}
