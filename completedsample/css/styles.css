@@ -2,6 +2,10 @@ html body p {
 	font-family: 'Raleway', sans-serif;
 }
 
+html body .row {
+	margin: 0px;
+}
+
 .topRow .intro {
 	padding-left: 60px;
 }
@@ -79,11 +83,11 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 	text-align: center;
-	margin: 20px 0 20px 0;
 }
 
 .smImgs article {
 	padding: 0px;
+	margin: 20px 0 20px 0;
 }
 
 .aboutSec {
@@ -103,17 +107,29 @@ main {
 }
 
 .contactInfo {
+	color: #FFF;
+	width: 100%;
 	display: flex;
 	justify-content: center;
-	flex-direction: row;
-	color: #FFF;
 }
 
 .phone, .email {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin-right: 10px;
+}
+
+.phone p {
+	margin: 0px;
+}
+
+.emailLink {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.emailLink:hover {
+	color: #91637F;
 }
 
 .contactInfo .fa-phone, .contactInfo .fa-envelope {
@@ -122,4 +138,22 @@ main {
 
 .contactInfo p {
 	font-size: 1.25em;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+  .phone, .email {
+    margin-bottom: 20px;
+  }
+  .contactInfo {
+  	flex-direction: column;
+  }
+}
+
+@media (max-width: 808px) {
+  .topRow .intro {
+  	padding-left: 20px;
+    margin-bottom: 20px;
+  }
 }
