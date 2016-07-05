@@ -38,6 +38,15 @@ html body p {
 	margin-bottom: 0px;
 }
 
+footer {
+	text-align: center;
+	padding: 20px;
+}
+
+footer p {
+	margin-bottom: 0px;
+}
+
 .port {
 	background-color: #E7A83E;
 }
@@ -90,10 +99,27 @@ main {
 	display: flex;
 	justify-content: center;
 	background-color: #94A5B3;
+	padding: 20px;
 }
 
 .contactInfo {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
+	color: #FFF;
+}
+
+.phone, .email {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-right: 10px;
+}
+
+.contactInfo .fa-phone, .contactInfo .fa-envelope {
+	font-size: 4em;
+}
+
+.contactInfo p {
+	font-size: 1.25em;
 }
