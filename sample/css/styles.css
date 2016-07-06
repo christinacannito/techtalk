@@ -1,131 +1,159 @@
 html body p {
-
+	font-family: 'Raleway', sans-serif;
 }
 
 html body .row {
-
+	margin: 0px;
 }
 
 .topRow .intro {
-
+	padding-left: 60px;
 }
 
 .topRow .buttons {
-
+	margin: 0px;
 }
 
 .port, .about {
-
+	/* CHANGE COLOR */
+	padding: 10px;
+	margin-right: 10px;
 }
 
 .port:hover {
-
+	/* BACKGROUND COLOR */
+	/* CREATE A BORDER 2px solid with a color */
 }
 
 .port:hover p {
-
+	/* CHANGE FONT COLOR ON HOVER */
 }
 
 .about:hover {
-
+	/* BACKGROUND COLOR */
+	/* CREATE A BORDER 2px solid with a color */
 }
 
 .about:hover p {
-
+	/* CHANGE FONT COLOR ON HOVER */
 }
 
 .port p, .about p, .contact p {
-
+	margin-bottom: 0px;
 }
 
 footer {
-
+	text-align: center;
+	padding: 20px;
 }
 
 footer p {
-
+	margin-bottom: 0px;
 }
 
 .port {
-
+	/* CHANGE BACKGROUND COLOR */
 }
 
 .about {
-
+	/* CHANGE BACKGROUND COLOR */
 }
 
 .contact {
-
+	/* BACKGROUND COLOR */
+	/* CHANGE FONT COLOR */
 }
 
 .contact:hover {
-
+	/* BACKGROUND COLOR */
+	/* CREATE A BORDER 2px solid with a color */
 }
 
 .contact:hover p {
-
+	/* CHANGE FONT COLOR ON HOVER */
 }
 
 main {
-
+	/* BACKGROUND COLOR */
+	text-align: center;
 }
 
 .smImgs {
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
 }
 
 .smImgs article {
-
+	padding: 0px;
+	margin: 20px 0 20px 0;
 }
 
 .aboutSec {
-
+	/* BACKGROUND COLOR */
+	/* FONT COLOR */
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
 }
 
 .contactSec {
-
+	display: flex;
+	justify-content: center;
+	/* BACKGROUND COLOR */
+	padding: 20px;
 }
 
 .contactInfo {
-
+	/*color: #FFF;*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .phone, .email {
-
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .phone p {
-
+	margin: 0px;
 }
 
 .emailLink {
-
+	/* CHANGE FONT COLOR */
+	text-decoration: underline;
 }
 
 .emailLink:hover {
-
+	/* CHANGE FONT COLOR ON HOVER */
 }
 
 .contactInfo .fa-phone, .contactInfo .fa-envelope {
-
+	font-size: 4em;
 }
 
 .contactInfo p {
-
+	font-size: 1.25em;
 }
 
 /* media queries */
+
 @media (max-width: 767px) {
   .phone, .email {
-
+    margin-bottom: 20px;
   }
   .contactInfo {
-
+  	flex-direction: column;
   }
 }
 
 @media (max-width: 808px) {
   .topRow .intro {
-
+  	padding-left: 20px;
+    margin-bottom: 20px;
   }
 }
